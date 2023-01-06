@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Connection</title>
+    <!--Css perso-->
+    <link rel="stylesheet" href="../css/index.css" />
+    <!-- include socket-->
+    <script src="/socket.io/socket.io.js"></script>
+    
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="vh-100 bg-black bg-gradient">
+    <container class="text-bg-dark  border-bottom bottom-rounded-3 ">
+        <header class=" d-flex row  justify-content-sm-between my-2 mx-2  justify-content-end align-items-center  ">
+
+
+            <div
+                class=" nav nav-pills d-flex flex-sm-fill justify-content-sm-between col-sm-5 col-xs-3 justify-content-around ">
+                <li><a href="/" class="nav-link px-2   link-danger text-warning fs-5"
+                        style="--bs-text-opacity: .8;">Accueil</a></li>
+                <li><a href="#" class="nav-link px-2 text-warning link-danger fs-5" style="--bs-text-opacity: .8;">A
+                        propos </a></li>
+                <li><a href="https://www.junia.com/fr/junia/programme-grande-ecole-isen/"
+                        class="nav-link px-2 link-danger text-warning fs-5" style="--bs-text-opacity: .8;">Isen Lille
+                    </a></li>
+
+            </div>
+            <div
+                class="nav d-flex justify-content-sm-end flex-sm-row col-sm-6 justify-content-center flex-xs-row col-xs-5 ">
+                    <a href="/connection" type="button"  class="btn btn-outline-light link-danger border-warning text-warning ">Connexion</a>
+            </div>
+        </header>
+    </container>
+
+    
+        <form id="signIn" action ="signin"  class=" vw-100 vh-100 d-flex " method="post">
+          
+                <div id="marginborder"
+                    class=" d-flex col-12 flex-column  align-items-end justify-content-xs-center row-gap-3">
+
+
+                    <div class="  container  form-floating col-sm-6">
+                       
+                        <input type="text" class="form-control" id="Username" required>
+                        <label for="username">Nom d'utilisateur</label>
+                    </div>
+
+                    <div class="container  form-floating col-xs-3 col-sm-6">
+                        
+                        <input type="password" class="form-control " id="Password" required>
+                        <label for="password"> Mot de passe </label>
+                    </div>
+
+                    <input class="container  btn btn-lg btn-warning col-sm-6" type="submit" value="Connexion">
+                </div>
+          
+            </form>
+  
+        <script src="../js/login.js"></script>
+        <script>let socket = io();</script>
+    </body>
+
+</html>

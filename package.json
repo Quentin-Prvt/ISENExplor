@@ -1,0 +1,25 @@
+{
+  "name": "isenexplorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximeBonnel/ISENexplorer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaximeBonnel/ISENexplorer/issues"
+  },
+  "homepage": "https://github.com/MaximeBonnel/ISENexplorer#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.8.2",
+    "socket.io": "^4.5.4"
+  }
+}

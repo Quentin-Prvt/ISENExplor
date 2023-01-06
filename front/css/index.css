@@ -1,0 +1,181 @@
+
+@media (min-width: 1200px) {
+    html {
+        height: 1200px;
+    }
+}
+
+#panorama {
+    height: 100%;
+    width: 100%;
+}
+
+
+.pnlm-load-box {
+    background-color: rgb(65, 63, 63);
+    color: #000;
+    border-radius: 15%;
+}
+
+.pnlm-box {
+    border-radius: 15%;
+
+}
+
+.pnlm-lbar {
+    border: rgb(0, 255, 94) 1px solid;
+}
+
+.pnlm-lbar-fill {
+    background: rgb(4, 185, 58);
+}
+
+.pnlm-load-button {
+    border-radius: 15%;
+}
+
+.container-fluid {
+    /* overflow:hidden;*/
+    margin-bottom: 10vh;
+}
+
+#admin-button {
+    min-width: 150px;
+    min-height: 50px;
+}
+
+.button-add {
+    height: 50px;
+    ;
+    right: 20%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: row;
+    background-color: #f5f5f5;
+}
+
+
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.checkbox.mb-3 {
+    display: flex;
+
+}
+
+.checkbox.mb-3 input[type="checkbox"] {
+    margin-bottom: 400px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.form-control-dark {
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
+#marginborder {
+    margin-top: 6rem;
+
+}
+
+#mongradient {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+
+
+/*SIGNIN*/
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
